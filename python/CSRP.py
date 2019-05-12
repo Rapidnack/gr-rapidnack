@@ -25,13 +25,13 @@ import socket
 import threading
 import time
 
-class sdr_frontend(gr.basic_block):
+class CSRP(gr.basic_block):
     """
-    docstring for block sdr_frontend
+    docstring for block CSRP
     """
-    def __init__(self, address, port, rate, gain, frequency):
+    def __init__(self, address,port,rate,gain,frequency):
         gr.basic_block.__init__(self,
-            name="sdr_frontend",
+            name="CSRP",
             in_sig=[],
             out_sig=[])
         self._address = address

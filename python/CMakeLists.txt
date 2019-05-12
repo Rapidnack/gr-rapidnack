@@ -31,7 +31,7 @@ endif()
 GR_PYTHON_INSTALL(
     FILES
     __init__.py
-    sdr_frontend.py DESTINATION ${GR_PYTHON_DIR}/rapidnack
+    CSRP.py DESTINATION ${GR_PYTHON_DIR}/rapidnack
 )
 
 ########################################################################
@@ -41,4 +41,4 @@ include(GrTest)
 
 set(GR_TEST_TARGET_DEPS gnuradio-rapidnack)
 set(GR_TEST_PYTHON_DIRS ${CMAKE_BINARY_DIR}/swig)
-GR_ADD_TEST(qa_sdr_frontend ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_sdr_frontend.py)
+GR_ADD_TEST(qa_CSRP ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_CSRP.py)

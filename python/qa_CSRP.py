@@ -21,9 +21,9 @@
 
 from gnuradio import gr, gr_unittest
 from gnuradio import blocks
-from sdr_frontend import sdr_frontend
+from CSRP import CSRP
 
-class qa_sdr_frontend (gr_unittest.TestCase):
+class qa_CSRP (gr_unittest.TestCase):
 
     def setUp (self):
         self.tb = gr.top_block ()
@@ -38,4 +38,4 @@ class qa_sdr_frontend (gr_unittest.TestCase):
 
 
 if __name__ == '__main__':
-    gr_unittest.run(qa_sdr_frontend, "qa_sdr_frontend.xml")
+    gr_unittest.run(qa_CSRP, "qa_CSRP.xml")

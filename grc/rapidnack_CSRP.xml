@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <block>
-  <name>SDR Frontend</name>
-  <key>rapidnack_sdr_frontend</key>
+  <name>CSRP</name>
+  <key>rapidnack_CSRP</key>
   <category>[rapidnack]</category>
   <import>import rapidnack</import>
-  <make>rapidnack.sdr_frontend($address, $port, $rate, $gain, $frequency)</make>
+  <make>rapidnack.CSRP($address, $port, $rate, $gain, $frequency)</make>
   <callback>set_gain($gain)</callback>
   <callback>set_frequency($frequency)</callback>
   <param>
-    <name>Frontend Address</name>
+    <name>CSRP Address</name>
     <key>address</key>
     <value>127.0.0.1</value>
     <type>string</type>

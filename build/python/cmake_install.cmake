@@ -35,16 +35,16 @@ endif()
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/rapidnack" TYPE FILE FILES
     "/home/zaurus/gnuradio/gr-rapidnack/python/__init__.py"
-    "/home/zaurus/gnuradio/gr-rapidnack/python/sdr_frontend.py"
+    "/home/zaurus/gnuradio/gr-rapidnack/python/CSRP.py"
     )
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/rapidnack" TYPE FILE FILES
     "/home/zaurus/gnuradio/gr-rapidnack/build/python/__init__.pyc"
-    "/home/zaurus/gnuradio/gr-rapidnack/build/python/sdr_frontend.pyc"
+    "/home/zaurus/gnuradio/gr-rapidnack/build/python/CSRP.pyc"
     "/home/zaurus/gnuradio/gr-rapidnack/build/python/__init__.pyo"
-    "/home/zaurus/gnuradio/gr-rapidnack/build/python/sdr_frontend.pyo"
+    "/home/zaurus/gnuradio/gr-rapidnack/build/python/CSRP.pyo"
     )
 endif()
 

@@ -31,5 +31,6 @@ except ImportError:
 	pass
 
 # import any pure python here
-from sdr_frontend import sdr_frontend
+
+from CSRP import CSRP
 #
