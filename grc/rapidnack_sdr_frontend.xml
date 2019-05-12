@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<block>
+  <name>SDR Frontend</name>
+  <key>rapidnack_sdr_frontend</key>
+  <category>[rapidnack]</category>
+  <import>import rapidnack</import>
+  <make>rapidnack.sdr_frontend($address, $port, $rate, $gain, $frequency)</make>
+  <callback>set_gain($gain)</callback>
+  <callback>set_frequency($frequency)</callback>
+  <param>
+    <name>Frontend Address</name>
+    <key>address</key>
+    <value>127.0.0.1</value>
+    <type>string</type>
+  </param>
+  <param>
+    <name>UDP Source Port</name>
+    <key>port</key>
+    <value>1234</value>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Rate</name>
+    <key>rate</key>
+    <value>200000</value>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Gain</name>
+    <key>gain</key>
+    <value>8</value>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Frequency</name>
+    <key>frequency</key>
+    <value>80e6</value>
+    <type>float</type>
+  </param>
+</block>

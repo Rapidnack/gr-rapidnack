@@ -1,0 +1,9 @@
+/usr/local/lib/cmake/rapidnack/rapidnackConfig.cmake
+/usr/local/include/rapidnack/api.h
+/usr/local/lib/python2.7/dist-packages/rapidnack/__init__.py
+/usr/local/lib/python2.7/dist-packages/rapidnack/sdr_frontend.py
+/usr/local/lib/python2.7/dist-packages/rapidnack/__init__.pyc
+/usr/local/lib/python2.7/dist-packages/rapidnack/sdr_frontend.pyc
+/usr/local/lib/python2.7/dist-packages/rapidnack/__init__.pyo
+/usr/local/lib/python2.7/dist-packages/rapidnack/sdr_frontend.pyo
+/usr/local/share/gnuradio/grc/blocks/rapidnack_sdr_frontend.xml
