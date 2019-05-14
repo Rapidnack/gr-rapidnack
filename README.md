@@ -6,7 +6,7 @@ gr-rapidnackプロジェクトは、Intel FPGAとCypress EZ-USB FX2LPを使っ�
 ![画像2](http://rapidack.sakura.ne.jp/ttl/wp-content/uploads/2019/05/GRC_CSRP2.png)
 ![画像3](http://rapidack.sakura.ne.jp/ttl/wp-content/uploads/2019/05/GRC_CSRP3.png)
 
-次の手順でインストールします。
+次の手順でインストールできます。
 ```
 $ cd gr-rapidnack
 $ mkdir build
