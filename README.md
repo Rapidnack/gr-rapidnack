@@ -2,8 +2,8 @@
 
 gr-rapidnackプロジェクトは、Intel FPGAとCypress EZ-USB FX2LPを使ったCSRP(Cheap Software Radio Peripheral)を制御するGNU Radioモジュールのソースコードです。
 
-![画像1](http://rapidack.sakura.ne.jp/ttl/wp-content/uploads/2019/05/GRC_CSRP1.png)
-![画像2](http://rapidack.sakura.ne.jp/ttl/wp-content/uploads/2019/05/GRC_CSRP2.png)
+![画像1](http://rapidack.sakura.ne.jp/ttl/wp-content/uploads/2019/12/GRC_CSRP1win.png)
+![画像2](http://rapidack.sakura.ne.jp/ttl/wp-content/uploads/2019/12/GRC_CSRP2win.png)
 ![画像3](http://rapidack.sakura.ne.jp/ttl/wp-content/uploads/2019/05/GRC_CSRP3.png)
 
 次の手順でインストールできます。
